@@ -440,6 +440,7 @@ export const LanguageSchema = z.enum(
     "pokemon_1k",
     "kokanu",
     "likanu",
+    "english_law"
   ],
   {
     errorMap: customEnumErrorHandler("Must be a supported language"),
